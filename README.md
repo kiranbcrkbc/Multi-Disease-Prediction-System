@@ -161,6 +161,23 @@ python src\utils\test_engine.py
 
 ---
 
+## ☁️ Streamlit Community Cloud Deployment Guide
+
+This repository is optimized for one-click deployment on **Streamlit Community Cloud**:
+
+1. Log in to [share.streamlit.io](https://share.streamlit.io/) with your GitHub account (`kiranbcrkbc`).
+2. Click **"New app"** or **"Create app"**.
+3. Select your repository: `kiranbcrkbc/Multi-Disease-Prediction-System`.
+4. Configure the deployment settings:
+   * **Branch:** `main`
+   * **Main file path:** `app.py`
+   * **App URL (optional):** `multi-disease-prediction-system` (or custom subdomain)
+5. Click **"Deploy!"**.
+
+Streamlit Cloud will automatically detect `requirements.txt`, install all required dependencies, load the serialized model pipelines, and launch the live web application on a public URL.
+
+---
+
 ## ⚠️ Important Medical Disclaimer
 
 > **Medical Disclaimer:** This Multi-Disease Prediction System is an academic machine-learning prototype developed for educational and demonstration purposes. It is **NOT** a certified medical device, and its predictions are **NOT** a substitute for professional clinical diagnosis, clinical judgment, advice, or treatment. Predictions are statistical estimates generated from trained algorithms on research datasets. Always consult a qualified healthcare professional for any medical concerns or diagnostic evaluations.
